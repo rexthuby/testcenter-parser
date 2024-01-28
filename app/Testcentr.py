@@ -22,7 +22,7 @@ class Testcentr:
     def get_krok_1_dentist_result(self) -> str | None:
         """get html test result"""
         try:
-            self.__browser.get('https://test.testcentr.org.ua/mod/quiz/view.php?id=30')
+            self.__browser.get('https://test.testcentr.org.ua/mod/quiz/view.php?id=32')
             sleep(1)
             return self.__get_base_result()
         except:
